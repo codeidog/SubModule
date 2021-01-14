@@ -4,6 +4,7 @@ from flask import Blueprint
 submodule = Blueprint('submodule', __name__)
 version = '0.0.5'
 
+
 @submodule.route('/')
 def default():
     global version
