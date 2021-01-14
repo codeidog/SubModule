@@ -2,7 +2,7 @@ import json
 from flask import Blueprint
 
 submodule = Blueprint('submodule', __name__)
-version = '0.0.3'
+version = '0.0.4'
 
 @submodule.route('/')
 def default():
